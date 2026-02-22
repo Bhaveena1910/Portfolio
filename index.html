@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <nav>
+        <h2 class="logo">Bhaveena P</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="theme-toggle">🌙</button></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Bhaveena Panneerselvam</span></h1> <br>
+            <h2><span id="typing"></span></h2> <br><br>
+            <p>Artificial Intelligence & Data Science Student | AI Enthusiast</p>
+            <div class="buttons">
+                <a href="https://github.com/Bhaveena1910" target="_blank" class="btn">GitHub</a>
+                
+                <a href="Resume without pic.pdf" class="btn secondary">Download Resume</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/bhavee.jpg" alt="Your Photo">
+        </div>
+    </section>
+
+   <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-card glass">
+                <div class="about-icon"><i class="fas fa-rocket"></i></div>
+                <p>
+                    I am a pre-final year <strong>Artificial Intelligence & Data Science</strong> student at Mepco Schlenk Engineering College. 
+                    I thrive on the challenge of building intelligent systems that solve real-world problems.
+                </p>
+            </div>
+            <div class="about-card glass">
+                <div class="about-icon"><i class="fas fa-brain"></i></div>
+                <p>
+                    Deeply interested in <strong>Machine Learning and Data Analytics</strong>, I am currently exploring the vast potential 
+                    of Generative AI to create innovative software solutions.
+                </p>
+            </div>
+            <div class="about-card glass">
+                <div class="about-icon"><i class="fas fa-lightbulb"></i></div>
+                <p>
+                    Passionate about continuous learning, I actively participate in hackathons and leadership roles to sharpen 
+                    both my technical and interpersonal skills.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>B.Tech in Artificial Intelligence & Data Science</h3>
+                    <p class="institution">Mepco Schlenk Engineering College</p>
+                    <span class="date">2023 - 2027</span>
+                    <p class="grade">CGPA: 8.90</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Higher Secondary (12th Grade)</h3>
+                    <p class="institution">Goodsam Matriculation Higher Secondary School</p>
+                    <span class="date">2021 - 2023</span>
+                    <p class="grade">Percentage: 94%</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Secondary School (10th Grade)</h3>
+                    <p class="institution">Goodsam Matriculation Higher Secondary School</p>
+                    <span class="date">Passed 2021</span>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <div class="skill-circle" data-percent="95">
+                    <img src="images/py.jpg" alt="Python" class="skill-icon-img">
+                    <svg><circle cx="45" cy="45" r="40"></circle><circle cx="45" cy="45" r="40" class="progress"></circle></svg>
+                </div>
+                <p>Python</p>
+            </div>
+            <div class="skill-item">
+                <div class="skill-circle" data-percent="85">
+                    <img src="images/sql.png" alt="SQL" class="skill-icon-img">
+                    <svg><circle cx="45" cy="45" r="40"></circle><circle cx="45" cy="45" r="40" class="progress"></circle></svg>
+                </div>
+                <p>SQL</p>
+            </div>
+           
+             <div class="skill-item">
+                <div class="skill-circle" data-percent="90">
+                    <img src="images/java.png" alt="Java" class="skill-icon-img">
+                    <svg><circle cx="45" cy="45" r="40"></circle><circle cx="45" cy="45" r="40" class="progress"></circle></svg>
+                </div>
+                <p>Java</p>
+            </div>
+             <div class="skill-item">
+                <div class="skill-circle" data-percent="85">
+                    <img src="images/html.png" alt="HTML" class="skill-icon-img">
+                    <svg><circle cx="45" cy="45" r="40"></circle><circle cx="45" cy="45" r="40" class="progress"></circle></svg>
+                </div>
+                <p>HTML</p>
+            </div>
+             <div class="skill-item">
+                <div class="skill-circle" data-percent="75">
+                    <img src="images/mongo db.png" alt="Mongo DB" class="skill-icon-img">
+                    <svg><circle cx="45" cy="45" r="40"></circle><circle cx="45" cy="45" r="40" class="progress"></circle></svg>
+                </div>
+                <p>Mongo DB</p>
+
+            </div>
+            
+             <div class="skill-item">
+                <div class="skill-circle" data-percent="80">
+                    <img src="images/css.jpg" alt="CSS" class="skill-icon-img">
+                    <svg><circle cx="45" cy="45" r="40"></circle><circle cx="45" cy="45" r="40" class="progress"></circle></svg>
+                </div>
+                <p>CSS</p>
+            </div>
+             <div class="skill-item">
+                <div class="skill-circle" data-percent="70">
+                    <img src="images/js.png" alt="JavaScript" class="skill-icon-img">
+                    <svg><circle cx="45" cy="45" r="40"></circle><circle cx="45" cy="45" r="40" class="progress"></circle></svg>
+                </div>
+                <p>JavaScript</p>
+
+            </div>
+             <div class="skill-item">
+                <div class="skill-circle" data-percent="80">
+                    <img src="images/c.png" alt="C" class="skill-icon-img">
+                    <svg><circle cx="45" cy="45" r="40"></circle><circle cx="45" cy="45" r="40" class="progress"></circle></svg>
+                </div>
+                <p>C</p>
+
+            </div>
+             <div class="skill-item">
+                <div class="skill-circle" data-percent="70">
+                    <img src="images/numpy.png" alt="NumPy" class="skill-icon-img">
+                    <svg><circle cx="45" cy="45" r="40"></circle><circle cx="45" cy="45" r="40" class="progress"></circle></svg>
+                </div>
+                <p>NumPy</p>
+            </div>
+            <div class="skill-item">
+                <div class="skill-circle" data-percent="70">
+                    <img src="images/pandas.png" alt="Pandas" class="skill-icon-img">
+                    <svg><circle cx="45" cy="45" r="40"></circle><circle cx="45" cy="45" r="40" class="progress"></circle></svg>
+                </div>
+                <p>Pandas</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="project-grid-layout">
+            <div class="project-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="image-container">
+                            <img src="images/project1.png" alt="Policy Navigation">
+                        </div>
+                        <h3>Music Director Classifier</h3>
+                        <p>Flip the card to explore</p>
+                        <a href="https://github.com/Bhaveena1910/Music-director-classifier" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                    <div class="card-back">
+                        <h3>About Project</h3>
+                        <p>This is the Python script for training the Music Director Classifier's CNN model using TensorFlow and librosa. It segments audio files into 3-second clips, extracts Mel-Spectrograms, and applies StandardScaler for crucial feature normalization. The script defines a deep 2D CNN architecture, trains it with callbacks (EarlyStopping, ReduceLROnPlateau), and evaluates performance using loss, accuracy, and a confusion matrix plot.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="image-container">
+                            <img src="images/project2.png" alt="OpenCV">
+                        </div>
+                        <h3>Movie Recommendation System</h3>
+                          <p>Flip the card to explore</p>
+                        <a href="https://github.com/Bhaveena1910/Movie-Recommendation-System" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                    <div class="card-back">
+                        <h3>About Project</h3>
+                        <p>This is a Streamlit-based Netflix Data Analysis and Recommendation Dashboard. It offers content-based (TF-IDF), collaborative (K-Means), and hybrid recommendation systems for movies and TV shows. The application also features Decision Tree classifiers (ID3/CART) to predict content ratings and visualizes popular titles using Pydeck.</p>
+                    </div>
+                </div>
+            </div>
+             <div class="project-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="image-container">
+                            <img src="images/project3.png" alt="OpenCV">
+                        </div>
+                        <h3>Pastel Vision - Real Time Magic</h3>
+                          <p>Flip the card to explore</p>
+                        <a href="https://github.com/Bhaveena1910/OpenCV" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                    <div class="card-back">
+                        <h3>About Project</h3>
+                        <p>An OpenCV-powered image processing tool that transforms standard photographs into soft, artistic pastel drawings by utilizing edge-preserving filters and color smoothing. The script automates the conversion process to mimic traditional art styles, focusing on texture reduction while maintaining sharp structural details. It provides a simple, programmatic way to generate non-photorealistic artistic renders from any digital image input.</p>
+                    </div>
+                </div>
+            </div>
+             <div class="project-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="image-container">
+                            <img src="images/project4.png" alt="PFT">
+                        </div>
+                        <h3>Personal Finance Tracker</h3>
+                          <p>Flip the card to explore</p>
+                        <a href="https://github.com/Bhaveena1910/Personal_Finance_Tracker" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                    <div class="card-back">
+                        <h3>About Project</h3>
+                        <p>A simple desktop application built using Python Tkinter and SQLite to manage income and expenses. Users can add, update, and track financial records with automatic total calculation and warnings. Includes data visualization using Matplotlib to compare income vs expenses and spending distribution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+     <section id="achievements" class="section">
+    <h2>Achievements</h2>
+    <div class="achievements-container">
+        
+        <div class="achievement-card">
+            <div class="achievement-icon"><i class="fas fa-briefcase"></i></div>
+            <h3>Internship</h3>
+            <p class="achievement-title">Infosys Springboard</p>
+            <p class="achievement-desc">Gaining hands-on corporate experience and working on industry-standard AI and Data Science modules.</p>
+        </div>
+
+        <div class="achievement-card">
+            <div class="achievement-icon"><i class="fas fa-code"></i></div>
+            <h3>LeetCode</h3>
+            <div class="stat-box">
+                <span class="stat-number" data-target="70">0</span><span class="stat-plus">+ Solved</span>
+            </div>
+            <p class="achievement-title">65% Acceptance Rate</p>
+            <p class="achievement-desc">Successfully tackled algorithmic problems with over 120+ total submissions.</p>
+        </div>
+
+        <div class="achievement-card">
+            <div class="achievement-icon"><i class="fas fa-certificate"></i></div>
+            <h3>NPTEL</h3>
+            <div class="stat-box">
+                <span class="stat-number" data-target="3">0</span><span class="stat-plus"> Courses</span>
+            </div>
+            <p class="achievement-title">Certified Professional</p>
+            <p class="achievement-desc">Successfully completed 3 NPTEL certifications in specialized engineering domains.</p>
+        </div>
+
+        <div class="achievement-card">
+            <div class="achievement-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>24-Hour Hackathon</h3>
+            <p class="achievement-title">KPR Institute of Technology</p>
+            <p class="achievement-desc">Participated in an intensive 24-hour coding marathon, building a functional prototype under strict time constraints in the domain of AI/ML.</p>
+        </div>
+    </div>
+</section>
+
+<section id="activities" class="section">
+    <h2>Other Activities</h2>
+    <div class="activities-grid">
+        
+        <div class="activity-card">
+            <div class="activity-icon"><i class="fas fa-users-gear"></i></div>
+            <div class="activity-info">
+                <h3>Co-Chairperson</h3>
+                <p class="org">Apti Riders Forum</p>
+                <p class="desc">Leading initiatives to improve logical reasoning skills through student events.</p>
+            </div>
+        </div>
+
+        <div class="activity-card">
+            <div class="activity-icon"><i class="fas fa-sitemap"></i></div>
+            <div class="activity-info">
+                <h3>Joint Secretary</h3>
+                <p class="org">Institution of Engineers (IE)</p>
+                <p class="desc">Managing organizational operations and coordinating technical symposiums.</p>
+            </div>
+        </div>
+
+        <div class="activity-card">
+            <div class="activity-icon"><i class="fas fa-laptop-file"></i></div>
+            <div class="activity-info">
+                <h3>Software Head</h3>
+                <p class="org">Consumer Club</p>
+                <p class="desc">Overseeing technical requirements and digital platforms.</p>
+            </div>
+        </div>
+
+        <div class="activity-card">
+            <div class="activity-icon"><i class="fas fa-medal"></i></div>
+            <div class="activity-info">
+                <h3>Silver Medalist</h3>
+                <p class="org">Zone-18 Athletics (400m Hurdles)</p>
+                <p class="desc">Demonstrating consistent discipline, stamina, and competitive excellence.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="section">
+    <h2>Get In Touch</h2>
+    <div class="contact-container">
+        
+        <div class="contact-formal">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>bhaveenaps@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>+91 82487 44044</p> 
+            </div>
+        </div>
+
+        <div class="contact-grid">
+            <a href="https://www.linkedin.com/in/bhaveena-panneerselvam/" target="_blank" class="social-card">
+                <i class="fab fa-linkedin"></i>
+                <span>Meet me @</span>
+                <h4>LinkedIn</h4>
+            </a>
+
+            <a href="https://github.com/Bhaveena1910" target="_blank" class="social-card">
+                <i class="fab fa-github"></i>
+                <span>Explore my code @</span>
+                <h4>GitHub</h4>
+            </a>
+
+            <a href="https://leetcode.com/u/Bhaveena_P/" target="_blank" class="social-card">
+                <i class="fas fa-terminal"></i>
+                <span>Challenge me @</span>
+                <h4>LeetCode</h4>
+            </a>
+        </div>
+    </div>
+</section>
+</body>
+</html>
